@@ -1,289 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32664bf0-2097-4b45-883e-146d8cc0ed27" name="Default Changelist" comment="基板提交">
-      <change afterPath="$PROJECT_DIR$/.idea/FGW.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_core_4_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_http_4_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_json_4_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_log_4_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_28_2_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zyplayer_swagger_mg_ui_1_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/ListManageApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/base/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/base/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/base/entity/IdEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/base/entity/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/base/entity/RestfulResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/base/enums/MsgEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/config/CodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/config/DruidConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/config/GateWayCorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/config/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/config/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmAddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmEventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmEventHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmEventModifyRecordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmListFillInDateConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmListVersionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmPositionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmPrivilegeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmProgressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmProjectHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmRole2privilegeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/controller/LmRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmEventHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmListFillInDateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmListVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmModifyRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmPrivilege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmProgress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmProjectHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/LmRole2privilege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/request/QueryEventListRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/request/QueryProjectListRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/request/SaveEventProgressRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/request/SaveEventRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/request/SaveProjectProgressRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/response/EventClassCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/response/GetCodesByTypeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/response/ProjectClassCountResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/entity/response/QueryEventDetailResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/BelongTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/ContentTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/EventProgressStateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/EventSourceEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/EventTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/FinishStateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/OperateTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/ProjectProgressStateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/ProjectTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/RelatedTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/enums/SupportLevelEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmCodeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmEventHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmEventMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmListFillInDateConfigMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmListVersionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmModifyRecordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmPositionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmPrivilegeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmProgressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmProjectHistoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmProjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmRole2privilegeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/mapper/LmRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmAddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmEventHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmEventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmListFillInDateConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmListVersionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmModifyRecordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmPositionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmPrivilegeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmProgressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmProjectHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmRole2privilegeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/ILmRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmAddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmCodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmEventHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmEventServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmListFillInDateConfigServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmListVersionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmModifyRecordServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmPositionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmPrivilegeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmProgressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmProjectHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmProjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmRole2privilegeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/java/com/sinosoft/fgw/listmanage/service/impl/LmRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmCodeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmEventHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmEventMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmListFillInDateConfigMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmListVersionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmModifyRecordMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmPositionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmPrivilegeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmProgressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmProjectHistoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmProjectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmRole2privilegeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/main/resources/mapper/LmRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/src/test/java/com/sinosoft/fgw/listmanage/ListManageApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/mock/EventList/selectList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/api/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/api/eventList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/api/eventManage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/api/projectManage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/components/VHead.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/utils/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/EventList/EventList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/EventList/components/baseInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/EventList/components/otherInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/EventList/components/problemDes.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/EventList/components/record.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/EventList/components/workProgress.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/EventManage/EventManage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/ProjectList/ProjectList.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/ProjectList/components/buildAddress.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/ProjectList/components/otherInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/ProjectList/components/projectInfo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/ProjectList/components/projectProgress.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/ProjectList/components/projectRecord.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/src/views/ProjectManage/ProjectManage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/government-view-dev-c35eaa904929222d0a7bbbacd5a42648637a363c/vue.config.js" afterDir="false" />
+    <list default="true" id="32664bf0-2097-4b45-883e-146d8cc0ed27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -296,7 +15,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
@@ -364,9 +83,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FGW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FGW" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FGW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FGW" type="462c0819:PsiDirectoryNode" />
+              <item name="government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -383,7 +117,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -418,17 +152,35 @@
       <updated>1586847451166</updated>
       <workItem from="1586847452268" duration="2456000" />
       <workItem from="1586849939878" duration="93000" />
-      <workItem from="1586850035439" duration="793000" />
+      <workItem from="1586850035439" duration="2494000" />
+      <workItem from="1586852538537" duration="616000" />
     </task>
+    <task id="LOCAL-00001" summary="基板提交">
+      <created>1586850864558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586850864558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3342000" />
+    <option name="totallyTimeSpent" value="5659000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -444,9 +196,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.5006974" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3463687" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
