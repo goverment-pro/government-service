@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sinosoft.fgw.listmanage.mapper.LmEventMapper">
+
+    <select id="queryEventClassCount" resultType="com.sinosoft.fgw.listmanage.entity.response.EventClassCountResponse">
+        SELECT
+            COUNT(*)                                              AS totalCount,
+            SUM(CASE WHEN le.belong_type = 1 THEN 1 ELSE 0 END)   AS coordinateClassCount,
+            SUM(CASE WHEN le.belong_type = 2 THEN 1 ELSE 0 END)   AS policyClassCount,
+            SUM(CASE WHEN le.belong_type = 3 THEN 1 ELSE 0 END)   AS projectClassCount,
+            SUM(CASE WHEN le.belong_type = 4 THEN 1 ELSE 0 END)   AS otherClassCount,
+            SUM(CASE WHEN le.support_level = 1 THEN 1 ELSE 0 END) AS cityLevelCount,
+            SUM(CASE WHEN le.support_level = 2 THEN 1 ELSE 0 END) AS districtLevelCount,
+            SUM(CASE WHEN le.support_level = 3 THEN 1 ELSE 0 END) AS streetTownLevelCount
+        FROM lm_event le;
+    </select>
+
+    <select id="queryEventList" parameterType="com.sinosoft.fgw.listmanage.entity.request.QueryEventListRequest"
+            resultType="com.sinosoft.fgw.listmanage.entity.LmEvent">
+        SELECT
+            le.id AS id,
+            le.area AS area,
+            le.street_town AS streetTown,
+            le.event_type AS eventType,
+            le.belong_type AS belongType,
+            le.support_level AS supportLevel,
+            le.event_desc AS eventDesc,
+            le.event_source AS eventSource,
+            le.work_order_no AS workOrderNo,
+            le.exist_problem AS existProblem,
+            le.things_to_coordinate AS thingsToCoordinate,
+            le.research_solution AS researchSolution,
+            le.department_take_lead AS departmentTakeLead,
+            le.department_cooperate AS departmentCooperate,
+            le.company_involved AS companyInvolved,
+            le.realty_management_agency AS realtyManagementAgency,
+            le.property_right_owner AS propertyRightOwner,
+            le.household_numbers AS householdNumbers,
+            le.area_size AS areaSize,
+            le.plan_finish_date AS planFinishDate,
+            le.current_progress_state AS currentProgressState,
+            le.current_progress_desc AS currentProgressDesc,
+            le.commited AS commited,
+            le.finished AS finished,
+            le.version AS version,
+            le.create_date AS createDate,
+            le.modify_date AS modifyDate,
+            le.create_user AS createUser,
+            le.modify_user AS modifyUser,
+            le.flag AS flag,
+            lp.address_type AS addressType,
+            lp.detail_address AS detailAddress,
+            lp.create_date AS fillInTime,
+            COUNT(lp.id) AS positionCount
+        FROM
+          lm_event le LEFT JOIN lm_position AS lp ON le.id=lp.related_id AND lp.related_type ='1'
+        WHERE 1=1
+        <if test="request.area != null and request.area != ''">
+            AND le.area = #{request.area}
+        </if>
+        <if test="request.streetTown != null and request.streetTown != ''">
+            AND le.street_town = #{request.streetTown}
+        </if>
+        <if test="request.supportLevel != null and request.supportLevel != ''">
+            AND le.support_level = #{request.supportLevel}
+        </if>
+        <if test="request.belongType != null and request.belongType != ''">
+            AND le.belong_type = #{request.belongType}
+        </if>
+        <if test="request.eventType != null and request.eventType != ''">
+            AND le.event_type = #{request.eventType}
+        </if>
+        <if test="request.departmentTakeLead != null and request.departmentTakeLead != ''">
+            AND le.department_take_lead = #{request.departmentTakeLead}
+        </if>
+        <if test="request.eventSource != null and request.eventSource != ''">
+            AND le.event_source = #{request.eventSource}
+        </if>
+        <if test="request.commited != null and ('true'.toString() == request.commited.toString() or 'false'.toString() == request.commited.toString())">
+            AND le.commited = #{request.commited}
+        </if>
+        <if test="request.currentProgressState != null and request.currentProgressState != ''">
+            AND le.current_progress_state = #{request.currentProgressState}
+        </if>
+        <if test="request.finished != null and ('true'.toString() == request.finished.toString() or 'false'.toString() == request.finished.toString())">
+            AND le.finished = #{request.finished}
+        </if>
+        <if test="request.addressType != null and request.addressType != ''">
+            AND lp.address_type = #{request.addressType}
+        </if>
+        <if test="request.eventDesc != null and request.eventDesc != ''">
+            AND le.event_desc like CONCAT('%',#{request.eventDesc},'%')
+        </if>
+        <if test="request.startDate != null  and request.endDate != null">
+            AND le.create_date BETWEEN #{request.startDate} AND #{request.endDate}
+        </if>
+        GROUP BY le.id
+    </select>
+
+</mapper>

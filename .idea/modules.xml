@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FGW.iml" filepath="$PROJECT_DIR$/.idea/FGW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/list-manage.iml" filepath="$PROJECT_DIR$/government-service-master-0661e0c46a197e0abd858abcdf9d1b4f8079f288/list-manage.iml" />
+    </modules>
+  </component>
+</project>

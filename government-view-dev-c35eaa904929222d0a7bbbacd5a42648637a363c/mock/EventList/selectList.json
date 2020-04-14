@@ -1,0 +1,62 @@
+{
+  "BELONG_TYPE": [
+    {
+      "id": "1246662890500067330",
+      "codeType": "BELONG_TYPE",
+      "codeTypeName": "所属类别",
+      "codeValue": "1",
+      "codeName": "协调类",
+      "codeDesc": "需要其他部门协调解决"
+    },
+    {
+      "id": "1246663025267249154",
+      "codeType": "BELONG_TYPE",
+      "codeTypeName": "所属类别",
+      "codeValue": "2",
+      "codeName": "政策类",
+      "codeDesc": "需要出台相关政策解决或者目前政策有冲突"
+    },
+    {
+      "id": "1246663107601436673",
+      "codeType": "BELONG_TYPE",
+      "codeTypeName": "所属类别",
+      "codeValue": "3",
+      "codeName": "项目类",
+      "codeDesc": "需要申请项目解决"
+    },
+    {
+      "id": "1246663176476102657",
+      "codeType": "BELONG_TYPE",
+      "codeTypeName": "所属类别",
+      "codeValue": "4",
+      "codeName": "其它类",
+      "codeDesc": "除以上类别之外的其它类别"
+    }
+  ],
+  "SUPPORT_LEVEL": [
+    {
+      "id": "1246662461246607361",
+      "codeType": "SUPPORT_LEVEL",
+      "codeTypeName": "支持级别",
+      "codeValue": "1",
+      "codeName": "市级",
+      "codeDesc": "需要市级部门牵头解决"
+    },
+    {
+      "id": "1246662500006170626",
+      "codeType": "SUPPORT_LEVEL",
+      "codeTypeName": "支持级别",
+      "codeValue": "2",
+      "codeName": "区级",
+      "codeDesc": "需要区级部门牵头解决"
+    },
+    {
+      "id": "1246662590489890817",
+      "codeType": "SUPPORT_LEVEL",
+      "codeTypeName": "支持级别",
+      "codeValue": "3",
+      "codeName": "街乡镇级",
+      "codeDesc": "街乡镇解决"
+    }
+  ]
+}

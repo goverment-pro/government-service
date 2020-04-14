@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sinosoft.fgw.listmanage.mapper.LmProjectMapper">
+
+    <select id="queryProjectClassCount"
+            resultType="com.sinosoft.fgw.listmanage.entity.response.ProjectClassCountResponse">
+        SELECT
+            SUM(lp.funds_needed)                                               AS totalFunds,
+            SUM(CASE WHEN lp.project_type = 1 THEN lp.funds_needed ELSE 0 END) AS governClassFunds,
+            SUM(CASE WHEN lp.project_type = 2 THEN lp.funds_needed ELSE 0 END) AS slightLiftClassFunds,
+            SUM(CASE WHEN lp.project_type = 3 THEN lp.funds_needed ELSE 0 END) AS reuseSpaceClassFunds
+        FROM
+            lm_project lp;
+    </select>
+
+    <select id="queryProjectList" parameterType="com.sinosoft.fgw.listmanage.entity.request.QueryProjectListRequest"
+            resultType="com.sinosoft.fgw.listmanage.entity.LmProject">
+        SELECT
+            lp.id AS id,
+            lp.address_type AS addressType,
+            lp.area AS area,
+            lp.basic_situation AS basicSituation,
+            lp.belong_type AS belongType,
+            lp.commited AS commited,
+            lp.construct_unit AS constructUnit,
+            lp.current_land_property AS currentLandProperty,
+            lp.detail_address AS detailAddress,
+            lp.finished AS finished,
+            lp.funds_needed AS fundsNeeded,
+            lp.funds_source AS fundsSource,
+            lp.manage_unit AS manageUnit,
+            lp.plan_land_property AS planLandProperty,
+            lp.project_finish_date AS projectFinishDate,
+            lp.project_name AS projectName,
+            lp.project_start_date AS projectStartDate,
+            lp.project_type AS projectType,
+            lp.region AS region,
+            lp.set_up AS setUp,
+            lp.street_town AS streetTown,
+            lp.support_level AS supportLevel,
+            lp.version AS version,
+            lp.create_date AS createDate,
+            lp.modify_date AS modifyDate,
+            lp.create_user AS createUser,
+            lp.modify_user AS modifyUser,
+            lp.flag AS flag,
+            lp.current_progress_state AS currentProgressState,
+            lp.current_progress_desc AS currentProgressDesc,
+            lp.create_date AS fillInTime,
+            COUNT(lps.id) AS positionCount
+        FROM
+          lm_project lp LEFT JOIN lm_position lps ON lp.id=lps.related_id AND lps.related_type='3'
+        WHERE
+        1 = 1
+        <if test="request.area != null and request.area != ''">
+            AND lp.area = #{request.area}
+        </if>
+        <if test="request.streetTown != null and request.streetTown != ''">
+            AND lp.street_town = #{request.streetTown}
+        </if>
+        <if test="request.projectType != null and request.projectType != ''">
+            AND lp.project_type = #{request.projectType}
+        </if>
+        <if test="request.supportLevel != null and request.supportLevel != ''">
+            AND lp.support_level = #{request.supportLevel}
+        </if>
+        <if test="request.belongType != null and request.belongType != ''">
+            AND lp.belong_type = #{request.belongType}
+        </if>
+        <if test="request.fundsSource != null and request.fundsSource != ''">
+            AND lp.funds_source = #{request.fundsSource}
+        </if>
+        <if test="request.projectName != null and request.projectName != ''">
+            AND lp.project_name LIKE CONCAT('%',#{request.projectName},'%')
+        </if>
+        <if test="request.constructUnit != null and request.constructUnit != ''">
+            AND lp.construct_unit LIKE CONCAT('%',#{request.constructUnit},'%')
+        </if>
+        <if test="request.manageUnit != null and request.manageUnit != ''">
+            AND lp.manage_unit = #{request.manageUnit}
+        </if>
+        <if test="request.commited != null and ('true'.toString() == request.commited.toString() or 'false'.toString() == request.commited.toString())">
+            AND lp.commited = #{request.commited}
+        </if>
+        <if test="request.progressState != null and request.progressState != ''">
+            AND lp.current_progress_state = #{request.progressState}
+        </if>
+        <if test="request.finished != null and ('true'.toString() == request.finished.toString() or 'false'.toString() == request.finished.toString())">
+            AND lp.finished = #{request.finished}
+        </if>
+        <if test="request.startDate != null  and request.endDate != null">
+            AND lp.create_date BETWEEN #{request.startDate} AND #{request.endDate}
+        </if>
+        GROUP BY lp.id
+    </select>
+
+</mapper>
